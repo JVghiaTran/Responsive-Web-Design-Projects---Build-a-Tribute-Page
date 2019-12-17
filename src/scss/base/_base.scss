@@ -1,18 +1,59 @@
-html {
-  text-size-adjust: 100%;
+#main {
+  background-color: #eee;
+  text-align: center;
+  padding: 30px 0;
 }
 
-body {
-  font-family: $body-font-family;
-  font-size: $body-font-size;
-  font-feature-settings: 'palt';
-  font-weight: $body-font-weight;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  line-height: $body-line-height;
-  letter-spacing: $body-spacing;
-  color: $body-font-color;
-  background-color: $light-color;
-  overflow-x: hidden;
+.is-lg {
+  font-size: 40px;
+}
+
+.is-md {
+  font-size: 25px;
+}
+
+.is-sm {
+  font-size: 15px;
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+#img-div {
+  margin: 25px 0;
+  background-color: white;
+}
+
+#img-caption {
+  padding: 20px 0;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  display: list-item;
+  margin: 15px;
+}
+
+#block-quote {
+  p {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
 }
